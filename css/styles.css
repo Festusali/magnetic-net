@@ -1,0 +1,52 @@
+body {
+    background-color: #f3f0f0;
+    padding: 0 10px;
+    margin-bottom: 50px;
+}
+
+.shadow {
+    background-color: #ffffff;
+    margin: 10px 0;
+    box-shadow: 5px 5px 8px lightgrey;
+}
+
+div.action-text {
+    text-align: center;
+    font-size: 2.5em;
+    background-color: rgb(17 26 57);
+    color: rgb(202, 0, 0);
+    padding: 20px 10px;
+    margin: 0;
+}
+
+.action-text {
+    font-size: 1.2em;
+    padding: 10px 5px;
+    margin: 0;
+}
+
+video {
+    max-width: 1000px;
+}
+
+.title {
+    color: #2196f3;
+    text-decoration: underline;
+}
+
+
+.order-container {
+    background-color: #f3f0f0;
+}
+
+.order-container label {
+    padding-bottom: 0;
+    font-weight: bold;
+}
+
+
+.field-row {
+    margin-top: 1rem!important;
+    background-color: #f8f4f4;
+}
+
