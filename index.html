@@ -232,16 +232,44 @@
                 </div>
             </div>
         </section>
-        <section class="order mt-3 order-container" id="order">
-            <div class="shadow card p-3">
+        <section class="order mt-3 order-container">
+            <div class="shadow p-3 text-center">
+                <h2 class="title">
+                    Promo Sales!!!
+                </h2>
+                <p>
+                    Order today and enjoy huge discounts.
+                </p>
+                <p class="action-text text-center">
+                    <strong>
+                        Promo Price: <span class="text-primary">₦10,000</span>
+                    </strong> <br>
+                    <strong>
+                        Normal Price: <del><span class="text-danger">₦15,000</span></del>
+                    </strong> <br>
+                    <strong>
+                        Save <span class="text-success">₦5,000</span>
+                    </strong>
+                </p>
+                <h2 class="text-primary">
+                    +
+                </h2>
+                <img class="img-fluid" src="images/free-delivery.png">
+                <div class="action-text p-3">
+                    Hurry and <a href="#order" class="btn btn-success btn-lg px-3 d-block rounded-pill mt-3">Place Your Order Now</a> Only limited stocks available.
+                </div>
+            </div>
+            <div class="shadow card p-3" id="order">
                 <h2 class="text-danger action-text title">
                     Place Your Order Now!
                 </h2>
                 <p>
                     Take advantage of our Promo currently ongoing and get yours at the most affordable price.
+                    <img src="images/payment.png" class="img-fluid">
                 </p>
 
-                <form action="#" method="post" name="orderForm">
+                <form name="orderForm" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                    <input type="hidden" name="subject" value="New Order For Screen Magnetic Net" />
                     <div class="row field-row">
                         <div class="col-sm-6 mb-3">
                             <label for="fullname" class="form-label">Full Name *</label>
@@ -255,17 +283,25 @@
                     <div class="row field-row">
                         <div class="col-sm-6 mb-3">
                             <label for="phone" class="form-label">Phone *</label>
-                            <input type="tel" class="form-control" placeholder="08137065693" name="phone">
+                            <input type="tel" class="form-control" placeholder="07067868317" name="phone">
                         </div>
                         <div class="col-sm-6 mb-3">
                             <label for="alt_phone" class="form-label">Alternative Phone *</label>
-                            <input type="tel" class="form-control" placeholder="08137065693" name="alt_phone">
+                            <input type="tel" class="form-control" placeholder="07067868317" name="alt_phone">
                         </div>
                     </div>
                     <div class="row field-row">
                         <div class="col-sm-6 mb-3">
                             <label for="quantity" class="form-label">Qantity *</label>
-                            <input type="number" class="form-control" placeholder="5" name="quantity">
+                            <select name="quantity" id="quantity" required class="form-select">
+                                <option value="" selected="selected">Choose Quantity *</option>
+                                <option value="1">One (1) Magnetic Net - ₦10,000</option>
+                                <option value="2">Two (2) Magnetic Net - ₦15,000</option>
+                                <option value="3">Three (3) Magnetic Net - ₦22,000</option>
+                                <option value="4">Four (4) Magnetic Net - ₦30,000</option>
+                                <option value="5">Five (5) Magnetic Net - ₦35,000</option>
+                            </select>
+                            <!-- <input type="number" class="form-control" placeholder="5" name="quantity"> -->
                         </div>
                         <div class="col-sm-6 mb-3">
                             <label for="state" class="form-label">Delivery State *</label>
@@ -314,19 +350,20 @@
                     <div class="row field-row mb-3">
                         <div class="col-sm-6 mb-3">
                             <label for="address" class="form-label">Address *</label>
-                            <input type="tel" class="form-control" placeholder="House No, Street Name & City" name="address">
+                            <input type="text" class="form-control" placeholder="House No, Street Name & City" name="address">
                         </div>
-                        <div class="col-sm-6">
-                            <button type="submit" class="btn btn-success btn-lg px-3 d-block rounded-pill mt-4 mb-2">Order Now!</button>
+                        <div class="col-sm-6 mb-3">
+                            <div data-netlify-recaptcha="true" class="in-block"></div>
+                            <button type="submit" class="btn btn-success btn-lg px-3 id-block rounded-pill mt-4 mb-2">Order Now!</button>
                         </div>
                     </div>
                 </form>
 
                 <div class="mt-3">
                     <a href=""></a>
-                    <a href="https://wa.me/+2348137065693/?text=Hello%2C+I+want+to+buy+Screen+Magnetic+Net.%0A%0AHere+are+my+Order+Details%3B%0AName%3A%0AQuantity%3A%0APhone+Number%3A%0ADetailed+Delivery+Address%3A%0ACity%2FState%3A" class="btn btn-success btn-lg px-3 d-block rounded-pill mt-3" target="_blank">Order Via WhatsApp</a>
+                    <a href="https://wa.me/+2347067868317/?text=Hello%2C+I+want+to+buy+Screen+Magnetic+Net.%0A%0AHere+are+my+Order+Details%3B%0AName%3A%0AQuantity%3A%0APhone+Number%3A%0ADetailed+Delivery+Address%3A%0ACity%2FState%3A" class="btn btn-success btn-lg px-3 d-block rounded-pill mt-3" target="_blank">Order Via WhatsApp</a>
                     <h2 class="text-danger action-text title mt-3 text-center">
-                        For more enquiries call: <a href="tel:+2348137065693">+2348137065693</a>
+                        For more enquiries and bulk order call: <a href="tel:+2347067868317">+2347067868317</a>
                     </h2>
                 </div>
             </div>

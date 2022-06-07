@@ -50,3 +50,6 @@ video {
     background-color: #f8f4f4;
 }
 
+.in-block {
+    display: inline-block;
+}
