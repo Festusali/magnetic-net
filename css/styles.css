@@ -4,6 +4,12 @@ body {
     margin-bottom: 50px;
 }
 
+main {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .shadow {
     background-color: #ffffff;
     margin: 10px 0;
