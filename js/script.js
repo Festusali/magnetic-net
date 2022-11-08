@@ -1,6 +1,6 @@
 // Script for managing Screen Magnetic Net website
 
-// Assigns curresponding value to price based on quantity
+// Assigns corresponding value to price based on quantity
 function checkForm() {
     orderQty = document.orderForm.quantity
     if (orderQty.value == 1) {
@@ -8,19 +8,23 @@ function checkForm() {
         return true;
     }
     if (orderQty.value == 2) {
-        document.orderForm.price.value = "₦14,000";
+        document.orderForm.price.value = "₦15,000";
         return true;
     }
     if (orderQty.value == 3) {
-        document.orderForm.price.value = "₦19,500";
+        document.orderForm.price.value = "₦21,000";
         return true;
     }
     if (orderQty.value == 4) {
-        document.orderForm.price.value = "₦25,500";
+        document.orderForm.price.value = "₦27,500";
         return true;
     }
     if (orderQty.value == 5) {
-        document.orderForm.price.value = "₦32,000";
+        document.orderForm.price.value = "₦33,500";
+        return true;
+    }
+    if (orderQty.value == 5) {
+        document.orderForm.price.value = "₦39,000";
         return true;
     }
     alert("Choose a valid quantity to continue!");
