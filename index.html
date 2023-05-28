@@ -336,15 +336,9 @@
                 </p>
                 <p class="action-text text-center">
                     <strong>
-                        Promo: <span class="text-primary">Buy 1, Get 1 Free at ₦17,000</span>
+                        Promo: <span class="text-primary">Buy 1, Get 1 Free at ₦16,000/ GHC400</span>
                     </strong>
-                    <img src="images/double-offer-1.png" alt="" class="d-block mx-auto" style="max-width: 200px; height: auto;"> <br>
-                    <strong>
-                        Normal Price: <span class="text-danger" style="text-decoration: line-through">₦25,000</span>
-                    </strong> <br>
-                    <strong>
-                        Save <span class="text-success">₦8,000</span>
-                    </strong>
+                    <img src="images/double-offer-1.png" alt="" class="d-block mx-auto" style="max-width: 200px; height: auto;">
                 </p>
                 <h2 class="text-primary">
                     +
@@ -392,17 +386,18 @@
                             <label for="quantity" class="form-label">Qantity *</label>
                             <select name="quantity" id="quantity" required class="form-select">
                                 <option value="" selected="selected">Choose Quantity *</option>
-                                <option value="2">Buy 1, get 1 free (2 packs) - ₦17,000</option>
-                                <option value="4">Buy 2, get 2 free (4 packs) - ₦30,000</option>
-                                <option value="6">Buy 3, get 3 free (6 packs) - ₦42,000</option>
-                                <option value="8">Buy 4, get 4 free (8 packs) - ₦50,000</option>
+                                <option value="2">Buy 1, get 1 free (2 packs) - ₦16,000/ GHC400</option>
+                                <option value="4">Buy 2, get 2 free (4 packs) - ₦30,000/ GHC780</option>
+                                <option value="6">Buy 3, get 3 free (6 packs) - ₦42,000/ GHC1140</option>
+                                <option value="8">Buy 4, get 4 free (8 packs) - ₦50,000/ GHC1480</option>
                                 <!-- <option value="5">5 Packs Magnetic Net (5) - ₦33,500</option>
                                 <option value="6">6 Packs Magnetic Net (5) - ₦39,000</option> -->
                             </select>
                         </div>
                         <div class="col-sm-6 mb-3">
-                            <label for="state" class="form-label">Delivery State *</label>
-                            <select name="state" id="state" required class="form-select">
+                            <label for="state" class="form-label">Delivery State/Region *</label>
+                            <input type="text" id="state" name="state" class="form-control" placeholder="Enter state/region" required>
+                            <!-- <select name="state" id="state" required class="form-select">
                                 <option value="" selected="selected">Delivery State *</option>
                                 <option value="Lagos">Lagos</option>
                                 <option value="Abuja">Abuja</option>
@@ -441,13 +436,13 @@
                                 <option value="Taraba">Taraba</option>
                                 <option value="Yobe">Yobe</option>
                                 <option value="Zamfara">Zamfara</option>
-                            </select>
+                            </select> -->
                         </div>
                     </div>
                     <div class="row field-row mb-3">
                         <div class="col-sm-6 mb-3">
                             <label for="address" class="form-label">Address *</label>
-                            <input type="text" class="form-control" placeholder="House No, Street Name & City" name="address" required>
+                            <input type="text" class="form-control" placeholder="House No, Street Name & City" name="address" id="address" required>
                         </div>
                         <div class="col-sm-6 mb-3">
                             <button type="submit" class="btn btn-success btn-lg px-3 id-block rounded-pill mt-4 mb-2">Order Now!</button>
