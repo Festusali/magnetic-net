@@ -1,6 +1,6 @@
-// Script for managing Screen Magnetic Net website
+// Script for managing orders for Screen Magnetic Net and Portable Blender
 
-// Assigns corresponding value to price based on quantity
+// Assigns corresponding value to price based on Net quantity
 function checkForm() {
     orderQty = document.orderForm.quantity
     if (orderQty.value == 2) {
@@ -27,6 +27,30 @@ function checkForm() {
     //     document.orderForm.price.value = "₦39,000";
     //     return true;
     // }
+    // alert("Choose a valid quantity to continue!");
+    // return false;
+}
+
+
+// Assigns corresponding value to price based on blender quantity
+function checkBlenderForm() {
+    orderQty = document.blenderOrderForm.quantity
+    if (orderQty.value == 1) {
+        document.blenderOrderForm.price.value = "₦15,000";
+        return true;
+    }
+    if (orderQty.value == 2) {
+        document.blenderOrderForm.price.value = "₦30,000";
+        return true;
+    }
+    if (orderQty.value == 3) {
+        document.blenderOrderForm.price.value = "₦45,000";
+        return true;
+    }
+    if (orderQty.value == 4) {
+        document.blenderOrderForm.price.value = "₦60,000";
+        return true;
+    }
     // alert("Choose a valid quantity to continue!");
     // return false;
 }
