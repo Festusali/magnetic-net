@@ -57,7 +57,7 @@ function checkBlenderForm() {
 
 
 // Assigns corresponding value to price based on massager quantity
-function massagerOrderForm() {
+function checkMassagerForm() {
     orderQty = document.massagerOrderForm.quantity
     if (orderQty.value == 1) {
         document.massagerOrderForm.price.value = "₦17,000";
