@@ -54,3 +54,23 @@ function checkBlenderForm() {
     // alert("Choose a valid quantity to continue!");
     // return false;
 }
+
+
+// Assigns corresponding value to price based on massager quantity
+function massagerOrderForm() {
+    orderQty = document.massagerOrderForm.quantity
+    if (orderQty.value == 1) {
+        document.massagerOrderForm.price.value = "₦17,000";
+        return true;
+    }
+    if (orderQty.value == 2) {
+        document.massagerOrderForm.price.value = "₦32,000";
+        return true;
+    }
+    if (orderQty.value == 3) {
+        document.massagerOrderForm.price.value = "₦46,000";
+        return true;
+    }
+    // alert("Choose a valid quantity to continue!");
+    // return false;
+}
