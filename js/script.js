@@ -4,7 +4,7 @@
 function checkForm() {
     orderQty = document.orderForm.quantity
     if (orderQty.value == 2) {
-        document.orderForm.price.value = "₦16,000/ GHC400";
+        document.orderForm.price.value = "₦17,000/ GHC400";
         return true;
     }
     if (orderQty.value == 4) {
