@@ -8,15 +8,15 @@ function checkForm() {
         return true;
     }
     if (orderQty.value == 4) {
-        document.orderForm.price.value = "₦30,000/ GHC780";
+        document.orderForm.price.value = "₦32,000/ GHC780";
         return true;
     }
     if (orderQty.value == 6) {
-        document.orderForm.price.value = "₦42,000/ GHC1140";
+        document.orderForm.price.value = "₦45,000/ GHC1140";
         return true;
     }
     if (orderQty.value == 8) {
-        document.orderForm.price.value = "₦50,500/ GHC1480";
+        document.orderForm.price.value = "₦54,500/ GHC1480";
         return true;
     }
     // if (orderQty.value == 5) {
