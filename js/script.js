@@ -1,6 +1,6 @@
 // Script for managing orders for Screen Magnetic Net and Portable Blender
 
-// Assigns corresponding value to price based on Net quantity 
+// Assigns corresponding value to price based on Net quantity
 function checkForm() {
     orderQty = document.orderForm.quantity
     if (orderQty.value == 2) {
