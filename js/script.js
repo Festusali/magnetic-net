@@ -16,7 +16,7 @@ function checkForm() {
         return true;
     }
     if (orderQty.value == 8) {
-        document.orderForm.price.value = "₦54,500/ GHC1480";
+        document.orderForm.price.value = "₦54,000/ GHC1480";
         return true;
     }
     // if (orderQty.value == 5) {
