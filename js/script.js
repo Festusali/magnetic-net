@@ -4,23 +4,23 @@
 function checkForm() {
     orderQty = document.orderForm.quantity
     if (orderQty.value == 2) {
-        document.orderForm.price.value = "₦17,000/ GHC400";
+        document.orderForm.price.value = "₦18,000/ GHC400";
         return true;
     }
     if (orderQty.value == 4) {
-        document.orderForm.price.value = "₦32,000/ GHC780";
+        document.orderForm.price.value = "₦34,000/ GHC780";
         return true;
     }
     if (orderQty.value == 6) {
-        document.orderForm.price.value = "₦45,000/ GHC1140";
+        document.orderForm.price.value = "₦48,000/ GHC1140";
         return true;
     }
     if (orderQty.value == 8) {
-        document.orderForm.price.value = "₦54,000/ GHC1480";
+        document.orderForm.price.value = "₦60,000/ GHC1480";
         return true;
     }
     if (orderQty.value == 10) {
-        document.orderForm.price.value = "₦65,000/ GHC1800";
+        document.orderForm.price.value = "₦70,000/ GHC1800";
         return true;
     }
     // if (orderQty.value == 5) {
