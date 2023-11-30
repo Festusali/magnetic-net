@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    font-size: 18px;
+}
+
+.text-24 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+img, video {
+    max-width: 100%;
+    border-radius: .5rem;
+}
+
+.mx-h-90 {
+    max-height: 90vh;
+    width: auto;
+}
+
+.bg-secondary-alt {
+    background-color: #bbccdb;
+}

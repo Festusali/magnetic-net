@@ -74,3 +74,25 @@ function checkMassagerForm() {
     // alert("Choose a valid quantity to continue!");
     // return false;
 }
+
+
+// Assigns corresponding value to price based on egg cracker quantity
+function checkEggCrackerForm() {
+    orderQty = document.eggCrackerOrderForm.quantity
+    if (orderQty.value == 1) {
+        document.eggCrackerOrderForm.price.value = "₦15,500";
+        return true;
+    }
+    if (orderQty.value == 2) {
+        document.eggCrackerOrderForm.price.value = "₦25,000";
+        return true;
+    }
+    if (orderQty.value == 3) {
+        document.eggCrackerOrderForm.price.value = "₦36,000";
+        return true;
+    }
+    if (orderQty.value == 4) {
+        document.eggCrackerOrderForm.price.value = "₦44,000";
+        return true;
+    }
+}
