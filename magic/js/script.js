@@ -8,39 +8,39 @@ function checkForm() {
         return true;
     }
     if (orderQty.value == 2) {
-        document.orderForm.price.value = "₦25,000";
+        document.orderForm.price.value = "₦30,000";
         return true;
     }
     if (orderQty.value == 3) {
-        document.orderForm.price.value = "₦37,000";
+        document.orderForm.price.value = "₦43,500";
         return true;
     }
     if (orderQty.value == 4) {
-        document.orderForm.price.value = "₦48,000";
+        document.orderForm.price.value = "₦56,000";
         return true;
     }
     if (orderQty.value == 5) {
-        document.orderForm.price.value = "₦58,000";
+        document.orderForm.price.value = "₦67,500";
         return true;
     }
     if (orderQty.value == 6) {
-        document.orderForm.price.value = "₦69,000";
+        document.orderForm.price.value = "₦78,000";
         return true;
     }
     if (orderQty.value == 7) {
-        document.orderForm.price.value = "₦79,000";
+        document.orderForm.price.value = "₦87,500";
         return true;
     }
     if (orderQty.value == 8) {
-        document.orderForm.price.value = "₦88,000";
-        return true;
-    }
-    if (orderQty.value == 9) {
         document.orderForm.price.value = "₦96,000";
         return true;
     }
+    if (orderQty.value == 9) {
+        document.orderForm.price.value = "₦103,000";
+        return true;
+    }
     if (orderQty.value == 10) {
-        document.orderForm.price.value = "₦100,000";
+        document.orderForm.price.value = "₦110,000";
         return true;
     }
 }
