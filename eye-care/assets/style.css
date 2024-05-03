@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #939393;
+    color: #000;
+    font-size: 18px;
+}
+
+main {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 700px;
+    background-color: #fff;
+    color: #000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-red {
+    color: #F30303;
+}
+
+.text-green {
+    color: #339966;
+}
+
+.logo, .img-cont, img, video {
+    max-width: 100%;
+}
+
+.big-text {
+    font-size: 20px;
+}
+
+.py-sm {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.my-xsm {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-cont {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-cont a {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 900;
+    color: #fff;
+    background-color: #F30303;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+h2.grey-red {
+    color: #CF4A4A;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
