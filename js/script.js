@@ -4,43 +4,27 @@
 function checkForm() {
     orderQty = document.orderForm.quantity
     if (orderQty.value == 1) {
-        document.orderForm.price.value = "₦18,000";
+        document.orderForm.price.value = "₦25,500";
         return true;
     }
     if (orderQty.value == 2) {
-        document.orderForm.price.value = "₦32,000";
+        document.orderForm.price.value = "₦46,000";
         return true;
     }
     if (orderQty.value == 3) {
-        document.orderForm.price.value = "₦46,500";
+        document.orderForm.price.value = "₦67,500";
         return true;
     }
     if (orderQty.value == 4) {
-        document.orderForm.price.value = "₦60,000";
+        document.orderForm.price.value = "₦88,000";
         return true;
     }
     if (orderQty.value == 5) {
-        document.orderForm.price.value = "₦72,500";
+        document.orderForm.price.value = "₦107,500";
         return true;
     }
     if (orderQty.value == 6) {
-        document.orderForm.price.value = "₦84,000";
-        return true;
-    }
-    if (orderQty.value == 7) {
-        document.orderForm.price.value = "₦94,500";
-        return true;
-    }
-    if (orderQty.value == 8) {
-        document.orderForm.price.value = "₦104,000";
-        return true;
-    }
-    if (orderQty.value == 9) {
-        document.orderForm.price.value = "₦112,500";
-        return true;
-    }
-    if (orderQty.value == 10) {
-        document.orderForm.price.value = "₦120,000";
+        document.orderForm.price.value = "₦126,000";
         return true;
     }
 }
